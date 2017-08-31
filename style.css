@@ -233,3 +233,25 @@ input[type="range"]:after
         width: 90%;
         white-space:nowrap;
 }
+
+
+#container {
+	min-width: auto;
+	max-width: auto;
+	height: autopx;
+	margin: 20px auto
+}
+
+#chartdiv {
+	width	: 100%;
+	height	: 500px;
+}			
+
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
